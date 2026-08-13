@@ -1,0 +1,35 @@
+[
+  {
+    "id": "CONS-01",
+    "name": "Leila Haddad",
+    "title": "Senior Sales Consultant",
+    "languages": ["English", "Arabic", "French"],
+    "expertise_tags": ["waterfront", "off-plan", "dubai", "investment-yield", "downtown", "short-let"],
+    "markets": ["Dubai", "UAE"],
+    "rating": 4.9,
+    "timezone": "Asia/Dubai",
+    "email": "leila.haddad@darglobal-demo.com"
+  },
+  {
+    "id": "CONS-02",
+    "name": "Omar Al-Rashid",
+    "title": "Senior Sales Consultant",
+    "languages": ["English", "Arabic"],
+    "expertise_tags": ["branded-residences", "riyadh", "serviced", "villas", "golf", "family", "end-user"],
+    "markets": ["Saudi Arabia", "UAE"],
+    "rating": 4.8,
+    "timezone": "Asia/Riyadh",
+    "email": "omar.alrashid@darglobal-demo.com"
+  },
+  {
+    "id": "CONS-03",
+    "name": "Sophie Bennett",
+    "title": "International Sales Consultant",
+    "languages": ["English", "Spanish"],
+    "expertise_tags": ["prime-london", "ready", "ultra-luxury", "uk-market", "mediterranean", "spain", "second-home"],
+    "markets": ["United Kingdom", "Spain", "Europe"],
+    "rating": 4.9,
+    "timezone": "Europe/London",
+    "email": "sophie.bennett@darglobal-demo.com"
+  }
+]
