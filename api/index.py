@@ -201,7 +201,7 @@ def chat(request: ChatRequest):
             "property_type": result.get("property_type"),
             "location": result.get("location"),
             "budget": result.get("budget"),
-            "Properties_interested" : result,get("Properties_interested")
+            "Properties_interested" : result.get("Properties_interested")
             
         }
     }
