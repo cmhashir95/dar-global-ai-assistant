@@ -46,10 +46,9 @@ extraction_model = model.with_structured_output(User_State, method="json_schema"
 # Langgraph state
 class chat_state(TypedDict):
   messages : list
-  location : Optional[str]
   budget : Optional[int]
   property_type : Optional[str]
-  Properties_interested : Optional[list[str]]
+
 
   #final response
   response : str
@@ -139,7 +138,6 @@ def generate_response(state: chat_state):
     }
 
 #### Building Graph
-graph = StateGraph(chat_state)
 
 #Add nodes
 graph.add_node("extract_user_info", extract_user_info)
@@ -203,7 +201,9 @@ def chat(request: ChatRequest):
             "property_type": result.get("property_type"),
             "location": result.get("location"),
             "budget": result.get("budget"),
-            "Properties_interested": result.get("Properties_interested")
+            "Properties_interested" : result,get("Properties_interested")
+            
+        }
     }
 
 @app.get("/api")
