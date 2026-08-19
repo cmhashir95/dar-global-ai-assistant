@@ -204,8 +204,6 @@ def chat(request: ChatRequest):
             "location": result.get("location"),
             "budget": result.get("budget"),
             "Properties_interested": result.get("Properties_interested")
-            
-        }
     }
 
 @app.get("/api")
