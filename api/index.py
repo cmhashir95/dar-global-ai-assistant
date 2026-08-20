@@ -138,6 +138,7 @@ def generate_response(state: chat_state):
     }
 
 #### Building Graph
+graph = StateGraph(chat_state)
 
 #Add nodes
 graph.add_node("extract_user_info", extract_user_info)
